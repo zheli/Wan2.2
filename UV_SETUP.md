@@ -1,6 +1,6 @@
 # uv Virtual Environment Setup
 
-This project ships with a `pyproject.toml`, so you can let the [`uv`](https://github.com/astral-sh/uv) package manager create and maintain a virtual environment for you. The commands below default to creating `.venv/` in the repository root. We target Python 3.13 here (the project supports any Python ≥3.10).
+This project ships with a `pyproject.toml`, so you can let the [`uv`](https://github.com/astral-sh/uv) package manager create and maintain a virtual environment for you. The commands below default to creating `.venv/` in the repository root. We target Python 3.10 here (the project supports any Python ≥3.10).
 
 ## 1. Install `uv`
 
@@ -20,7 +20,7 @@ After installation, restart your shell or run the snippet that the installer pri
 ## 2. Sync dependencies into a virtualenv
 
 ```bash
-uv python install 3.13          # optional; ensures Python 3.13 is available
+uv python install 3.10          # optional; ensures Python 3.10 is available
 uv sync                         # creates .venv/ and installs project dependencies
 ```
 
