@@ -21,6 +21,7 @@ After installation, restart your shell or run the snippet that the installer pri
 
 ```bash
 uv python install 3.10          # optional; ensures Python 3.10 is available
+uv python pin 3.10              # write .python-version so the project stays on 3.10
 uv sync                         # creates .venv/ and installs project dependencies
 ```
 
